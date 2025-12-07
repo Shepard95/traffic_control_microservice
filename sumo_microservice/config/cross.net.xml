@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net version="1.18" junctionCornerDetail="5" limitTurnSpeed="5.50">
+  <!-- Cruce simple 4x4 para demo rápida -->
+  <junction id="C" type="traffic_light" x="0.00" y="0.00" incLanes="we_0" intLanes=":C_0_0 :C_w1_0 :C_w0_1" shape="0.00,5.00 0.00,-5.00 -5.00,0.00 5.00,0.00">
+    <request index="0" response="0" foes="0 1 2" cont="0"/>
+  </junction>
+  <edge id="we" from="W" to="C">
+    <lane id="we_0" index="0" speed="13.89" length="150.00" shape="-150.00,0.00 0.00,0.00"/>
+  </edge>
+  <!-- Más edges simplificados para demo -->
+</net>
